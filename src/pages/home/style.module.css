@@ -1,0 +1,20 @@
+.alternate_color:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+
+.alternate_color {
+    border-bottom: none;
+}
+
+.border_class {
+    border: 1px solid #DDDDDD;
+    padding: 12px;
+    box-sizing: border-box;
+    border-top: none;
+}
+
+.border_class:nth-child(even) {
+    border-left: none;
+    border-right: none;
+}
